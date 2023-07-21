@@ -13,32 +13,28 @@
 
 Clone the repository:
 
-```
-bash
+```bash
 Copy code
 git clone https://github.com/Asitha-Muthumala/Fully-Responsive-Tech-Website-Landing-Page.git
 ```
 
 Change into the project directory:
 
-```
-bash
+```bash
 Copy code
 cd Fully-Responsive-Tech-Website-Landing-Page
 ```
 
 Install the dependencies:
 
-```
-bash
+```bash
 Copy code
 npm install
 ```
 
 Start the development server:
 
-```
-bash
+```bash
 Copy code
 npm start
 ```
@@ -69,22 +65,17 @@ Fully-Responsive-Tech-Website-Landing-Page/
   │   │       ├── pricing.js
   │   │       └── works.js
   │   ├── App.js
-  │   └── index.js
-  ├── public/
-  │   └── index.html
-  ├── package.json
-  └── README.md
+  │   └──
 
 ### Customization
-To customize the content and styles of the landing page, you can modify the components present in the src/components/ directory. Each component represents a section of the landing page, such as the header, banner, features, services, testimonials, pricing, contact, and footer.
+To customize the content and styles of the landing page, you can modify the components present in the src/components/ directory. Each component represents a section of the landing page, such as the header, banner, features, pricing, contact, and footer.
 
 You can also change the colors, fonts, and other styles by editing the CSS or using Ant Design's built-in theming options.
 
 ### Deploy
 To build the project for production, use the following command:
 
-```
-bash
+```bash
 Copy code
 npm run build
 ```
