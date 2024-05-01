@@ -28,9 +28,10 @@ function AppHeader() {
                 <div className='mobileHidden'>
                     <Button type="link" className='link-button' href="#hero">Home</Button>
                     <Button type="link" className='link-button' href="#about">About</Button>
-                    <Button type="link" className='link-button' href="#feature">Features</Button>
-                    <Button type="link" className='link-button' href="#works">How It Works</Button>
-                    <Button type="link" className='link-button' href="#pricing">Pricing</Button>
+                    <Button type="link" className='link-button' href="#feature">Galary</Button>
+                    <Button type="link" className='link-button' href="#works">Feedback</Button>
+                    <Button type="link" className='link-button' href="#package">Packages</Button>
+                    <Button type="link" className='link-button' href="#faq">FAQ</Button>
                     <Button type="link" className='link-button' href="#contact">Contact Us</Button>
                 </div>
                 <div className='mobileVisible'>
@@ -47,10 +48,10 @@ function AppHeader() {
                         <Anchor targetOffset="65">
                             <Link href="#hero" title="Home" />
                             <Link href="#about" title="About" />
-                            <Link href="#feature" title="Features" />
-                            <Link href="#works" title="How it works" />
+                            <Link href="#feature" title="Galary" />
+                            <Link href="#works" title="Feedback" />
                             <Link href="#faq" title="FAQ" />
-                            <Link href="#pricing" title="Pricing" />
+                            <Link href="#package" title="Packages" />
                             <Link href="#contact" title="Contact" />
                         </Anchor>
                     </Drawer>
