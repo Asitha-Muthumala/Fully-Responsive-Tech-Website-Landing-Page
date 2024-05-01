@@ -1,4 +1,5 @@
 import React from "react";
+import logo from '../../assets/images/logo.png';
 
 import { BackTop } from 'antd';
 
@@ -7,8 +8,10 @@ function AppFooter() {
         <div className="container-fluid">
             <div className="footer">
                 <div className="logo">
-                    <i className="fas fa-bolt"></i>
-                    <a href="hrrp://www.google.com">Tech</a>
+                    {/* <i className="fas fa-bolt"></i> */}
+                    <i class="fas fa-ship"></i>
+                    <a href="hrrp://www.google.com">Lagoon Squad</a>
+                    {/* <img src={logo} width="250px" alt="" /> */}
                 </div>
                 <ul className="socials">
                     <li><a href="https://www.facebook.com"><i className="fab fa-facebook"></i></a></li>
@@ -18,7 +21,7 @@ function AppFooter() {
                     <li><a href="https://www.instagram.com/"><i className="fab fa-instagram"></i></a></li>
                 </ul>
                 <div className="copyright">
-                    Copyright &copy; 2023 Tech
+                    Copyright &copy; 2024 Lagoon Squad
                 </div>
                 <BackTop>
                     <div className="goTop"><i className="fas fa-arrow-circle-up"></i></div>
