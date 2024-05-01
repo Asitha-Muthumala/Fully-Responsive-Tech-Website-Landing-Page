@@ -171,7 +171,7 @@ hero
 ---- 
 */
 .heroBlock {
-  background: url('assets/images/ssss.jpg') no-repeat;
+  background: url('assets/images/sliderImg.jpg') no-repeat;
   background-position: 50% 100%;
   background-size: cover;
   height: 100vh;
